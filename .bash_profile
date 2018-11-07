@@ -3,3 +3,6 @@
 if [[ -f ~/.bashrc ]] ; then
 	. ~/.bashrc
 fi
+
+export EDITOR=vim
+export VISUAL=vim

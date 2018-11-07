@@ -26,3 +26,5 @@ function color_my_prompt {
     export PS1="$__user_and_host $__cur_location $__git_branch_color$__git_branch$__git_dirty$__prompt_tail$__last_color "
 }
 color_my_prompt
+
+set -o vi
